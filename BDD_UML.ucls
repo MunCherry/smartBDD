@@ -1,0 +1,169 @@
+<class-diagram version="1.0.11" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <interface id="1" corner="BOTTOM_RIGHT" language="java" name="org.vt.cs.bdd.reflection.IClassDetails" 
+    project="BDD-Project" file="/BDD-Project/src/org/vt/cs/bdd/reflection/IClassDetails.java" binary="false">    
+    <position height="-1" width="-1" x="476" y="315"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="org.vt.cs.bdd.reflection.JavaClassDetailsImpl" 
+    project="BDD-Project" file="/BDD-Project/src/org/vt/cs/bdd/reflection/JavaClassDetailsImpl.java" binary="false">    
+    <position height="179" width="272" x="341" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="org.vt.cs.bdd.reflection.JavaClassDetailsFacade" 
+    project="BDD-Project" file="/BDD-Project/src/org/vt/cs/bdd/reflection/JavaClassDetailsFacade.java" binary="false">    
+    <position height="-1" width="-1" x="579" y="585"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="org.vt.cs.bdd.reflection.ClassInfoHolder" 
+    project="BDD-Project" file="/BDD-Project/src/org/vt/cs/bdd/reflection/ClassInfoHolder.java" binary="false">    
+    <position height="-1" width="-1" x="180" y="442"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" corner="BOTTOM_RIGHT" language="java" name="org.vt.cs.bdd.matcher.IProbabilisticMatcher" 
+    project="BDD-Project" file="/BDD-Project/src/org/vt/cs/bdd/matcher/IProbabilisticMatcher.java" binary="false">    
+    <position height="-1" width="-1" x="1313" y="252"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <enumeration id="6" corner="BOTTOM_RIGHT" language="java" name="org.vt.cs.bdd.matcher.ProbabilisticMatchOrder" 
+    project="BDD-Project" file="/BDD-Project/src/org/vt/cs/bdd/matcher/ProbabilisticMatchOrder.java" binary="false">    
+    <position height="-1" width="-1" x="1258" y="66"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" name="cs.vt.edu.bdd.nlp.Analyzer" project="BDD-Project" 
+    file="/BDD-Project/src/cs/vt/edu/bdd/nlp/Analyzer.java" binary="false">    
+    <position height="-1" width="-1" x="2023" y="83"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="8" corner="BOTTOM_RIGHT" language="java" name="cs.vt.edu.bdd.nlp.POSTagger" project="BDD-Project" 
+    file="/BDD-Project/src/cs/vt/edu/bdd/nlp/POSTagger.java" binary="false">    
+    <position height="-1" width="-1" x="2034" y="387"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="9" corner="BOTTOM_RIGHT" language="java" name="org.vt.cs.bdd.matcher.ProbabilisticMatcherImpl" 
+    project="BDD-Project" file="/BDD-Project/src/org/vt/cs/bdd/matcher/ProbabilisticMatcherImpl.java" binary="false">    
+    <position height="145" width="494" x="1061" y="373"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="10" corner="BOTTOM_RIGHT" language="java" name="org.vt.cs.bdd.generator.AbstractCodeGenerator" 
+    project="BDD-Project" file="/BDD-Project/src/org/vt/cs/bdd/generator/AbstractCodeGenerator.java" binary="false">    
+    <position height="-1" width="-1" x="1787" y="923"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="11" corner="BOTTOM_RIGHT" language="java" name="org.vt.cs.bdd.generator.JunitTestCodeGenerator" 
+    project="BDD-Project" file="/BDD-Project/src/org/vt/cs/bdd/generator/JunitTestCodeGenerator.java" binary="false">    
+    <position height="-1" width="-1" x="1289" y="917"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <realization id="12">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="14">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="15" name="tagger"/>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="18">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="19" name="fileVsClassInfo"/>      
+      <multiplicity id="20" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="21">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="22">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="23" name="probabilisticMatcher"/>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="25">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <association id="26">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="27" name="analyser"/>      
+      <multiplicity id="28" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="29">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="30">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <realization id="31">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <dependency id="32">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="33">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

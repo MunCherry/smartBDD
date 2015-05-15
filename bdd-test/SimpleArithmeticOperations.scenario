@@ -1,0 +1,17 @@
+Given an instance of SimpleArithmeticOperations
+When I add "1234" to "20"
+Then result is "1254"
+
+Given an instance of SimpleArithmeticOperations
+When I divide "200" and "20"
+Then result is "10"
+
+Given an instance of SimpleArithmeticOperations
+When I substract "300" from "100"
+Then result is "200"
+
+Given an instance of SimpleArithmeticOperations
+When I multiply "10" with "20"
+Then result is "200"
+
+

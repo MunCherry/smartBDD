@@ -1,0 +1,9 @@
+Scenario: testing string concatenation
+Given: an instance of StringConcatenator
+When: valueStr1 is "Hello " AND valueStr2 is "World!"
+Then: the concatenated value is "Hello World!"
+
+Scenario: testing string concatenation
+Given: an instance of StringConcatenator
+When: valueStr1 is "Hello " AND valueStr2 is "World!"
+Then: the concatenated value is "HelloWorld!"

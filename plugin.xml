@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.newWizards">         
+         <wizard
+            class="cs.vt.edu.bdd.wizard.OpenBDDProject"
+            icon="resources/icons/customized/BDD4.png"
+            id="cs.vt.edu.bdd.wizard.OpenBDDProject"
+            name="BDD Project">
+      </wizard>         
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="cs.vt.edu.bdd.editors.BDDConfig"
+            contributorClass="cs.vt.edu.bdd.editors.BDDConfigContributor"
+            extensions="bdd"
+            icon="resources/icons/customized/BDD4.png"
+            id="cs.vt.edu.bdd.editors.BDDConfig"
+            name="BDD Configurator">
+      </editor>
+      <editor
+            class="cs.vt.edu.bdd.editors.ScenarioEditor"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            extensions="scenario,txt,feature"
+            icon="resources/icons/customized/Seditor4.png"
+            id="cs.vt.edu.bdd.editors.ScenarioEditor"
+            name="Scenario Editor">
+      </editor>
+   </extension>
+
+</plugin>
